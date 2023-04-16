@@ -63,7 +63,7 @@
 # 3 2 1 -> no
 
 # m, n, k = int(input()), int(input()), int(input())
-# if k % m == 0 or k % n == 0:
+# if (k % m == 0 or k % n == 0) and k < m*n:
 #     print('yes')
 # else:
 #     print('no')
